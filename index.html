@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+     <h1>Rick and Morty API</h1>
+    <div id="Pesquisar">
+    <input type="text" id="input" placeholder="Search By Name">
+    <button id="button" onclick="ProcurarPerso()">Search</button>
+    </header>
+    <main>
+    </div>
+    <div id="character-list"></div>    
+    <img id="imagemFinal" src="./fotos/rick-and-morty-portal-shoes-white-clothing-zavvi-23.jpg" alt="">
+    <div id="pagination">
+        <button id="return-button" onclick="retornar()">Previous</button>
+        <button id="next-button" onclick="proximo()">Nex</button>
+    </div>
+    </main>
+    <footer>
+       <p>CHARACTERS: 826</p> 
+       <p>LOCATIONS: 126</p>
+        <p>EPISODES: 51</p>
+        <p id="Nome">DEVELOPED BY <span>Roque Junior Da Silva Moraes </span>IN 2023</p>
+    </footer>
+</body>
+
+</html>
